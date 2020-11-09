@@ -10,6 +10,10 @@ body {
 	overflow-x: hidden;
 }
 /*/Tool Section/*/
+img {
+	margin: 0px!important;
+	padding: 0px!important;
+}
 .anchor {
 	margin-top: 0px!important;
 	margin-bottom: 0px!important;
@@ -86,7 +90,7 @@ nav {
 	font-size: 20px;
 	background: rgb (53,148,77);
 	background: linear-gradient(90deg,
-	rgba(53,148,77,0.9) 30%, 
+	rgba(53,148,77,0.9) 48%, 
 	rgba(255,255,255,0.9) 60%);
 }
 .nav-area {
@@ -96,12 +100,24 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 }
-.logo {
+.icon-span {
+	display: table-cell;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	vertical-align: middle;
+	height: 50px;
+}
+.icon {
 	order: 1;
 	position: relative;
 	display: inline-block;
 	overflow: hidden;
-
+	width: auto;
+	height: 40px;
+}
+.icon-li {
+	padding: 5px 5px 5px 5px;
+	width: auto;
 }
 .nav-list {
 	order: 0;
@@ -115,22 +131,22 @@ nav {
 }
 /*/ End Nav style /*/
 .bkgrnd-tbannercontainer {
-	margin-top: 50px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 10px;
+	margin-top: 62px;
 }
 .logo-container {
-	margin-top: 53px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 80px;
+	margin-top: 50px;
 }
 .logo-1 {
 	order: 0;
