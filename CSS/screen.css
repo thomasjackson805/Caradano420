@@ -19,14 +19,12 @@ img {
 	padding: 0px!important;
 }
 .anchor {
-	margin-top: 0px!important;
-	margin-bottom: 0px!important;
+	margin: 0px!important;
 	padding: 0px!important;
 }
 .home-anchor {
 	margin: 0px!important;
 	padding: 0px!important;
-	overflow: hidden;
 }
 .extendfull, .extendleft
 {
@@ -94,8 +92,8 @@ nav {
 	width: auto;
 	font-size: 20px;
 	background: rgb (53,148,77);
-	background: linear-gradient(-35deg, #4CAF50 20%, 
-	rgba(255,255,255,0.9) 80%);
+	background: linear-gradient(180deg, #4CAF50 -210%, 
+	rgba(255,255,255,0.9) 200%);
 }
 .nav-area {
 	list-style-type: none;
@@ -140,8 +138,8 @@ nav {
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 0px;
-	margin-top: 60px;
+	margin-bottom: 60px;
+	margin-top: 0px;
 }
 .logo-container {
 	display: flex;
@@ -364,5 +362,7 @@ li.logo {
 }
 .filecredits {
 	z-index: 9;
+	font-size: 10px;
+	font-style: italic;
 	color: black;
 }
