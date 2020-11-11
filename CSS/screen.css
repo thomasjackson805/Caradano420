@@ -1,8 +1,8 @@
 html {
 	background: rgb (53,148,77);
-	background: linear-gradient(180deg,
-	rgba(255, 255, 255, 0.9) 40%, 
-	rgba(53,148,77,0.9) 90%);
+	background: linear-gradient(0deg,
+	rgba(255, 255, 255, 0.9) 20%, 
+	#4CAF50 100%);
 }
 body { 
 	font-family: 'Poppins', sans-serif;
@@ -71,7 +71,6 @@ img {
 /*/ End Hover Grow /*/
 /*/ End Tools /*/
 /*/ Desktop Menu /*/
-@media all and (min-width: 960px) {
 /*/ Begin Nav Style /*/
 a {
 	color: black;
@@ -92,8 +91,8 @@ nav {
 	width: auto;
 	font-size: 20px;
 	background: rgb (53,148,77);
-	background: linear-gradient(180deg, #4CAF50 -210%, 
-	rgba(255,255,255,0.9) 200%);
+	background: linear-gradient(180deg, #4CAF50 -100%, 
+	rgba(255,255,255,0.9) 100%);
 }
 .nav-area {
 	list-style-type: none;
@@ -111,7 +110,7 @@ nav {
 }
 .icon {
 	order: 1;
-	position: relative;
+	
 	display: inline-block;
 	overflow: hidden;
 	width: 40px;
@@ -123,7 +122,7 @@ nav {
 }
 .nav-list {
 	order: 0;
-	position: relative;
+	
 	display: inline-flex;
 	width: auto;
 	padding: 5px 15px 5px;
@@ -147,13 +146,13 @@ nav {
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
-	margin-top: 50px;
-	margin-bottom: 80px;
+	margin-top: 30px;
+	padding: 50px;
 }
 .logo-1 {
+	position: relative;
 	order: 0;
 	display: block;
-	position: relative;
 	width: 30%;
 }
 .bkgrnd-tbanner {
@@ -213,7 +212,7 @@ li.logo {
 	margin-top: 60px;
 }
 .pooldetails-h1 {
-	position: relative;
+	
 	display: block;
 	order: 0;
 	width: auto;
@@ -230,7 +229,7 @@ li.logo {
 	align-items: middle;
 }
 .pooldetails-h3 {
-	position: relative;
+	
 	display: block;
 	order: 0;
 	width: auto;
@@ -243,7 +242,7 @@ li.logo {
 	align-items: middle;
 }
 .pooldetails-p {
-	position: relative;
+	
 	display: block;
 	order: 0;
 	width: 100%;
@@ -266,7 +265,7 @@ li.logo {
 	margin-top: 60px;
 }
 .aboutus-h1 {
-	position: relative;
+	
 	display: block;
 	order: 2;
 	width: auto;
@@ -283,13 +282,12 @@ li.logo {
 	align-items: middle;
 }
 .aboutus-p {
-	position: relative;
+	
 	display: block;
 	order: 2;
 	width: 100%;
 	background-color: rgb(53, 138, 74);
 	border-top: 15px solid #4CAF50;
-	border-bottom: 15px solid #4CAF50;
 	margin-bottom: 0px;
 	padding: 25px;
 }
@@ -300,24 +298,25 @@ li.logo {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	align-items: middle;
+	
 }
 .metric-column1 {
-	position: relative;
 	order: 0;
 	display: inline-flex;
 	width: 48%;
+	border-top: 15px solid #4CAF50;
 	border-bottom: 15px solid #4CAF50;
 	background: linear-gradient(45deg,
 	rgba(53,148,77,0.9) 40%, 
 	rgba(255,255,255,0.9) 90%);
+	vertical-align: middle;
 }
 .metric-column2 {
-	position: relative;
 	order: 0;
 	display: inline-flex;
 	width: 48%;
 	border-bottom: 15px solid #4CAF50;
+	vertical-align: middle;
 }
 /*/ End Metrics Styling /*/
 /*/ Footer Styling /*/
@@ -331,7 +330,7 @@ li.logo {
 	margin-top: 60px;
 }
 .contactus-h1 {
-	position: relative;
+	
 	display: block;
 	order: 2;
 	width: auto;
