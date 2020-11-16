@@ -1,0 +1,346 @@
+html {
+	background: rgb (53,148,77);
+	background: linear-gradient(0deg,
+	rgba(255, 255, 255, 0.9) 20%, 
+	#4CAF50 100%);
+}
+body { 
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	text-align: left;
+	overflow-x: hidden;
+}
+/*/Tool Section/*/
+img {
+	padding: 0px;
+	margin: 0px;
+}
+.anchor {
+	padding: 0px;
+	margin: 0px;
+}
+.home-anchor {
+	padding: 0px;
+	margin: 0px;
+}
+.extendfull, .extendleft
+{
+	padding-left: 3000px;
+	margin-left: -3000px;
+}
+
+.extendfull, .extendright
+{
+	padding-right: 3000px;
+	margin-right: -3000px;
+}
+/*/ Float Fix /*/
+.fix {
+	clear: both;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+
+	zoom: 1;
+}
+/*/ End Float Fix /*/
+/*/ Hover Grow /*/
+.hvr-grow {
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.45s;
+    transition-property: transform;
+}
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    background-color: #4CAF50;
+}
+/*/ End Hover Grow /*/
+/*/ End Tools /*/
+/*/ Desktop Menu /*/
+/*/ Begin Nav Style /*/
+a {
+	color: black;
+	text-decoration: none;
+}
+ul.nav-area {
+	padding-inline-start: 5px;
+	padding-inline-end: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+nav {
+	z-index: 9;
+	position: -webkit-sticky; /*/ Fixed Safari /*/
+	position: sticky;
+    top: 0;
+    left: 0;
+	width: auto;
+	font-size: 20px;
+	background: rgb (53,148,77);
+	background: linear-gradient(180deg, #4CAF50 -100%, 
+	rgba(255,255,255,0.9) 100%);
+}
+.nav-area {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.icon-span {
+	display: table-cell;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	vertical-align: middle;
+	height: 50px;
+}
+.icon {
+	order: 1;
+	display: inline-block;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+}
+.icon-li {
+	padding: 5px 5px 5px 5px;
+	width: auto;
+}
+.nav-list {
+	order: 0;
+	
+	display: inline-flex;
+	width: auto;
+	padding: 5px 15px 5px;
+	padding: 2px;
+	border-radius: 25px;
+	border: 5px solid #4CAF50;
+}
+/*/ End Nav style /*/
+.bkgrnd-tbannercontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	margin-bottom: 60px;
+}
+.logo-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	padding: 50px;
+}
+.logo-1 {
+	position: relative;
+	order: 0;
+	display: block;
+	width: 30%;
+}
+.bkgrnd-tbanner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+}
+.bkgrnd-bbannercontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	bottom: 0;
+	left: 0;
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+.bkgrnd-bbanner {
+	display: inline-flex;
+	margin: 0px;
+	padding: 0px;
+}
+/*/ Top Header Container /*/
+.thh1-container {
+	z-index: 9;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin-top: 15px;
+}
+.thh1-1 {
+	display: inline-flex;
+}
+/*/End Top Header/*/
+li.logo {
+	margin-right: 10px;
+}
+.logo {
+	width: 14%;
+	height: 14%;
+	border-radius: 15px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 2px 5px 2px;
+}
+/*/ Start Pool Details Styling /*/
+.pooldetails-h1container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 60px;
+}
+.pooldetails-h1 {
+	
+	display: block;
+	order: 0;
+	width: auto;
+	background-color: #2bb24c;
+	border-radius: 25px;
+	border: 5px solid #4CAF50;
+	padding: 15px;
+}
+.pooldetails-h3container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: middle;
+}
+.pooldetails-h3 {
+	
+	display: block;
+	order: 0;
+	width: auto;
+}
+.pooldetails-pcontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: middle;
+}
+.pooldetails-p {
+	
+	display: block;
+	order: 0;
+	width: 100%;
+	background-color: rgb(53, 138, 74);
+	border-top: 15px solid #4CAF50;
+	border-bottom: 15px solid #4CAF50;
+	padding: 25px;
+}
+.pool-project {
+	color: blue;
+}
+/*/ End Pool Details /*/
+/*/ Start About Us Styling /*/
+.aboutus-h1container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: middle;
+	margin-top: 60px;
+}
+.aboutus-h1 {
+	
+	display: block;
+	order: 2;
+	width: auto;
+	background-color: #2bb24c;
+	border-radius: 25px;
+	border: 5px solid #4CAF50;
+	padding: 15px;
+}
+.aboutus-pcontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: middle;
+}
+.aboutus-p {
+	
+	display: block;
+	order: 2;
+	width: 100%;
+	background-color: rgb(53, 138, 74);
+	border-top: 15px solid #4CAF50;
+	margin-bottom: 0px;
+	padding: 25px;
+}
+/*/ End About Us Styling /*/
+/*/ Start Metrics Styling /*/
+.metric-columncontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+}
+.metric-column1 {
+	order: 0;
+	display: inline-flex;
+	width: 48%;
+	border-top: 15px solid #4CAF50;
+	border-bottom: 15px solid #4CAF50;
+	background: linear-gradient(45deg,
+	rgba(53,148,77,0.9) 40%, 
+	rgba(255,255,255,0.9) 90%);
+	vertical-align: middle;
+}
+.metric-column2 {
+	order: 0;
+	display: inline-flex;
+	width: 48%;
+	border-bottom: 15px solid #4CAF50;
+	vertical-align: middle;
+}
+/*/ End Metrics Styling /*/
+/*/ Footer Styling /*/
+
+.contactus-h1container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: middle;
+	margin-top: 60px;
+}
+.contactus-h1 {
+	
+	display: block;
+	order: 2;
+	width: auto;
+	background-color: #2bb24c;
+	border-radius: 25px;
+	border: 5px solid #4CAF50;
+	padding: 15px;
+}
+.filecredits {
+	z-index: 9;
+	font-size: 10px;
+	font-style: italic;
+	color: black;
+}
