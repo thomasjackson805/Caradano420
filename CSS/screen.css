@@ -1,7 +1,7 @@
 html {
 	background: linear-gradient(0deg,
-	rgba(255, 255, 255, 0.9) 20%, 
-	#4CAF50 100%)
+	rgba(255, 255, 255, 0.9) 40%, 
+	#4CAF50 90%)
 	no-repeat;
 }
 body {
@@ -10,9 +10,17 @@ font-size: 16px;
 -webkit-font-smoothing: antialiased;
 text-decoration: none;
 text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-text-align: left;
+text-align: center;
 overflow-x: hidden;
 }
+html,body { 
+	height:100%;
+	display: flex;
+	flex-direction: column;
+}
+body > * {
+	flex-shrink: 0;
+  }
 /*/ Hover Grow /*/
 .hvr-grow {
     -moz-osx-font-smoothing: grayscale;
@@ -39,8 +47,7 @@ overflow-x: hidden;
 	display: inline-flexbox;
 	order: 0;
 	background-color: #2bb24c;
-	border-radius: 25px;
-	border: 5px solid #4CAF50;
+	border-top: 5px solid #4caf4f9f;
 	padding: 15px;
 	width: auto;
 }
@@ -78,9 +85,8 @@ overflow-x: hidden;
 }
 .contactus-form {
 	order: 1;
-	display: flexbox;
+	display: block;
 	width: 50%;
-	vertical-align: middle;
 	margin-top: 15px;
 	margin-right: 5px;
 	padding: 15px;
@@ -89,11 +95,9 @@ overflow-x: hidden;
 }
 .subscribe-form {
 	order: 0;
-	display: flexbox;
+	display: block;
 	width: 50%;
-	vertical-align: middle;
-	margin-top: 15px;
-	margin-left: 5px;
+	margin: 0px!important;
 	padding: 15px;
 	background-color:  #2bb24c;
 	border-radius: 25px;
@@ -123,7 +127,9 @@ nav {
     top: 0;
 	left: 0;
 	font-size: 20px;
-	background: rgb(53,148,77);
+	backdrop-filter: blur(6px);
+	border-bottom: linear-gradient(180deg, #4CAF50 -100%, 
+	rgba(255,255,255,0.9) 100%);
 }
 li.nav-list {
 	display: inline-flex;
@@ -132,10 +138,11 @@ li.nav-list {
 	height: auto;
 	margin: 5px;
 	padding: 5px;
+	border-radius: 25px;
 }
 a {
 	text-decoration: none;
-	color: lime;
+	color: black;
 }
 .imagewrapper {
 	display: flex;
@@ -184,8 +191,15 @@ a.nav-style {
 	margin-top: 100px;
 }
 .footer.row-h1container {
+	display: flexbox;
+	flex-flow: column wrap;
+	justify-content: center;
+	vertical-align: middle;
 	margin: 0px;
 	padding: 15px;
+}
+.socialmedia-style {
+	border-radius: 25px;
 }
 /*/ End Metrics Styling /*/
 .extendfull, .extendleft
@@ -200,4 +214,11 @@ a.nav-style {
 }
 .extendup {
 	margin-top: -100px;
+}
+* { padding: 0; margin: 0; }
+.div1 { background-color: yellow; }
+
+.div2 {
+  background-color: orange;
+  flex-grow: 1;
 }
